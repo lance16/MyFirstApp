@@ -24,7 +24,7 @@
                 </button>
                 <a class="navbar-brand" href="index.aspx">
                     
-                   <b style="color:black"><em>Employee Registration</em></b>
+                   <b style="color:black"><em>Employee Registrations</em></b>
                     
                 </a>
             </div>
