@@ -123,7 +123,7 @@ namespace RevalsysSystemTask
                     strCon = ConfigurationManager.ConnectionStrings["conStr"].ConnectionString;
                     con = new SqlConnection(strCon);
                     con.Open();
-                    cmd = new SqlCommand("Sp_AddEmployeeDetail", con);
+                    cmd = new SqlCommand("Sp_AddEmployee", con);
                     cmd.CommandType = CommandType.StoredProcedure;
                     SqlParameter paramName = new SqlParameter();
                     paramName.ParameterName = "@EmpName";
